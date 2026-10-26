@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio showcasing web development, design skills, and selected projects.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Mst. Shakila Akhter Mimi | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Mst. Shakila Akhter Mimi home"><span class="logo-mark">S</span><span>Shakila<span class="logo-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+        <li><a class="nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <div class="availability"><span class="status-dot"></span> Learning, creating & growing</div>
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Mst. Shakila<br><span class="gradient-text">Akhter Mimi.</span></h1>
+        <h2 class="hero-role">I'm a <span id="typed-role" class="typed-role">Web Developer</span><span class="typing-cursor" aria-hidden="true">|</span></h2>
+        <p class="hero-description">I build thoughtful, responsive digital experiences with clean code and creative design. I love turning ideas into websites that feel as good as they look.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View My Projects <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Contact Me <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-socials" aria-label="Social links">
+          <span>Find me on</span>
+          <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook">f</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal" aria-label="Profile image placeholder">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-frame">
+          <!-- Replace images/profile.png with your own portrait. -->
+          <img src="./images/hijab girl.jpg" alt="Portrait of Mst. Shakila Akhter Mimi" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="profile-fallback" aria-hidden="true"></div>
+        </div>
+        <!-- <div class="floating-card card-code"><span class="mini-icon">&lt;/&gt;</span><div><strong>Clean code</strong><small>Learning by building</small></div></div> -->
+        <!-- <div class="floating-card card-design"><span class="mini-sparkle">✦</span><div><strong>Graphic design</strong><small>Made for people</small></div></div> -->
+        <div class="hero-glow" aria-hidden="true"></div>
+      </div>
+      <a class="scroll-hint" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Building the web, <span class="gradient-text">one idea at a time.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="lead">I'm <strong>Mst. Shakila Akhter Mimi</strong>, a beginner Web Designer & developer who enjoys learning, practising, and creating digital experiences.</p>
+          <p>I focus on writing accessible HTML, styling with modern CSS, and adding useful interactions with JavaScript. I’m always learning, experimenting, and improving with every project.</p>
+          <a class="button button-secondary" href="./portfolioCV.pdf" download>Download My CV <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card"><span class="stat-number">03<span>+</span></span><span class="stat-label">Practice project ideas</span></div>
+          <div class="stat-card"><span class="stat-number">06<span>+</span></span><span class="stat-label">Core skills</span></div>
+          <div class="stat-note"><span class="note-icon">✦</span><p>Curious by nature.<br><strong>Focused on progress.</strong></p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">WHAT I WORK WITH</p><h2>Skills & <span class="gradient-text">toolkit.</span></h2><p class="section-intro">The tools I use to bring ideas to life and keep growing as a developer.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon orange">5</div><h3>HTML5</h3><p>Semantic, accessible page structure.</p><div class="skill-track"><span style="--skill:88%"></span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon blue">3</div><h3>CSS3</h3><p>Responsive layouts and polished UI.</p><div class="skill-track"><span style="--skill:82%"></span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon yellow">JS</div><h3>JavaScript</h3><p>Interactive and dynamic experiences.</p><div class="skill-track"><span style="--skill:65%"></span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon violet">↔</div><h3>Responsive Design</h3><p>Layouts for mobile, tablet, and desktop.</p><div class="skill-track"><span style="--skill:80%"></span></div></article>
+        <!-- <article class="skill-card reveal"><div class="skill-icon pink">◈</div><h3>UI Design</h3><p>Clear visual hierarchy and usability.</p><div class="skill-track"><span style="--skill:68%"></span></div></article> -->
+        <article class="skill-card reveal"><div class="skill-icon cyan">✦</div><h3>Graphic Design (basic)</h3><p>Visual ideas with a consistent style.</p><div class="skill-track"><span style="--skill:72%"></span></div></article>
+      </div>
+      <p class="small-note">Skill levels are illustrative placeholders—adjust them to reflect your real experience.</p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading section-heading-row reveal"><div><p class="eyebrow">PRACTICE & EXPLORATION</p><h2>My learning <span class="gradient-text">built.</span></h2><p class="section-intro">These are sample concepts for your portfolio. Replace them with your real projects when ready.</p></div><a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">Explore GitHub <span aria-hidden="true">↗</span></a></div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <a class="project-image project-image-one" href="#contact" aria-label="Ask about the portfolio website project"><div class="mock-browser"><div class="browser-dots"><i></i><i></i><i></i></div><div class="mock-content"><span class="mock-kicker">DESIGN YOUR FUTURE</span><b>Creative<br>Studio<span>.</span></b><div class="mock-line"></div><div class="mock-pill"></div></div><div class="mock-orb"></div></div><span class="project-arrow" aria-hidden="true">↗</span></a>
+          <div class="project-info"><div class="project-meta"><span>01 / WEB DESIGN</span><span class="project-year">SAMPLE</span></div><h3>Creative Studio Landing Page</h3><p>A bold landing page concept with responsive sections and clear calls to action.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="#contact">Live Demo ↗</a><a href="https://github.com/" target="_blank" rel="noreferrer">View Code ↗</a></div></div>
+        </article>
+        <article class="project-card reveal">
+          <a class="project-image project-image-two" href="#contact" aria-label="Ask about the dashboard project"><div class="dashboard-mock"><div class="dash-sidebar"><b>◫</b><i></i><i></i><i></i><i></i></div><div class="dash-main"><span class="dash-title">Overview</span><div class="dash-metrics"><i></i><i></i><i></i></div><div class="dash-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div></div><span class="project-arrow" aria-hidden="true">↗</span></a>
+          <div class="project-info"><div class="project-meta"><span>02 / FRONTEND</span><span class="project-year">SAMPLE</span></div><h3>Analytics Dashboard UI</h3><p>A dashboard interface concept focused on readable data and clean components.</p><div class="tags"><span>HTML</span><span>CSS Grid</span><span>JavaScript</span></div><div class="project-links"><a href="#contact">Live Demo ↗</a><a href="https://github.com/" target="_blank" rel="noreferrer">View Code ↗</a></div></div>
+        </article>
+        <!-- <article class="project-card reveal">
+          <a class="project-image project-image-three" href="#contact" aria-label="Ask about the product card project"><div class="product-mock"><div class="product-ring"></div><div class="product-bottle"><span>PURE<br><small>daily essentials</small></span></div><div class="product-caption">LESS, BUT<br><b>BETTER.</b></div></div><span class="project-arrow" aria-hidden="true">↗</span></a>
+          <div class="project-info"><div class="project-meta"><span>03 / GRAPHIC DESIGN</span><span class="project-year">SAMPLE</span></div><h3>Minimal Product Showcase</h3><p>A product-focused layout using whitespace, strong typography, and visual balance.</p><div class="tags"><span>HTML</span><span>CSS</span><span>UI Design</span></div><div class="project-links"><a href="#contact">Live Demo ↗</a><a href="https://github.com/" target="_blank" rel="noreferrer">View Code ↗</a></div></div>
+        </article> -->
+      </div>
+    </section>
+
+    <section class="section container" id="services">
+      <div class="section-heading reveal"><p class="eyebrow">HOW I CAN HELP</p><h2>Services I <span class="gradient-text">offer.</span></h2></div>
+      <div class="services-grid">
+        <article class="service-card reveal"><span class="service-number">01</span><div class="service-icon">⌘</div><h3>Responsive Website Design</h3><p>Modern layouts that look and work great on different screen sizes.</p><span class="service-bottom">DESIGN · RESPONSIVE</span></article>
+        <article class="service-card reveal"><span class="service-number">02</span><div class="service-icon">⌁</div><h3>Frontend Development</h3><p>Accessible, maintainable pages built with HTML, CSS, and JavaScript.</p><span class="service-bottom">HTML · CSS · JS</span></article>
+        <article class="service-card reveal"><span class="service-number">03</span><div class="service-icon">✳</div><h3>Website Redesign</h3><p>A cleaner structure and refreshed visual style for an existing website.</p><span class="service-bottom">REFRESH · IMPROVE</span></article>
+        <!-- <article class="service-card reveal"><span class="service-number">04</span><div class="service-icon">◈</div><h3>Graphic Design</h3><p>Simple, consistent visual assets for digital projects and brands.</p><span class="service-bottom">VISUALS · BRANDING</span></article> -->
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-panel reveal">
+        <div class="contact-copy"><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let's make something <span class="gradient-text">great.</span></h2><p>Have an idea, a question, or an opportunity? Send a message. I'd be happy to hear from you.</p>
+          <div class="contact-detail"><span class="detail-icon">@</span><div><small>EMAIL ME</small><a href="mailto:your.email@example.com">mstshakilamim22@gmail.com</a></div></div>
+          <div class="contact-detail"><span class="detail-icon">↗</span><div><small>FOLLOW ALONG</small><div class="contact-socials"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook</a></div></div></div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Mst. Shakila Akhter Mimi" autocomplete="name" required></div>
+          <div class="form-row"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="alex@example.com" autocomplete="email" required></div>
+          <div class="form-row"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What's this about?" required></div>
+          <div class="form-row"><label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Tell me a little about your idea..." required></textarea></div>
+          <button class="button button-primary submit-button" type="submit">Validate Message <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite">Demo form: messages are not sent to a server.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container footer-inner"><a class="logo" href="#home"><span class="logo-mark">S</span><span>Shakila<span class="logo-dot">.</span></span></a><p>Web Developer & Graphic Designer · Learning every day.</p><div class="footer-right"><span>© <span id="year"></span> Mst. Shakila Akhter Mimi</span><a class="back-top" href="#top" aria-label="Back to top">↑</a></div></div>
+  </footer>
+</body>
+</html>
